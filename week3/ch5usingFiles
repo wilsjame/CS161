@@ -1,0 +1,33 @@
+/*
+// Chapter 5 Using files for data storage practice
+
+#include <iostream>
+
+// Preprocessor directive to include fstream library 
+// required to use file storage objects
+#include <fstream> 
+
+int main() 
+{
+
+// Preparing to read from a file
+// create a file stream object
+std::ifstream inputFile;
+
+// Open file for reading, use dot operator to call open function
+inputFile.open("CS161InputFile.txt");
+
+// Preparing to write a file
+// create a new file stream object
+std::ofstream outputFile;
+
+// Create a file and write data to it using dot operator to call open function
+// WARNING: if file already exists it will be replaced
+outputFile.open("CS161OutputFile.txt");
+
+// To close 
+inputFile.close();
+outputFile.close();
+
+*/
+
